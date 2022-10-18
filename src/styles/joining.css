@@ -1,0 +1,40 @@
+.join-container {
+    margin-top: -200px;
+}
+
+.user-info input{
+    border-bottom:1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: inline;
+    width: 65%;
+    margin-left: 20px;
+}
+
+.account-illustration img{
+    width: 100%;
+}
+
+.user-info button{
+    font-weight: 400;
+}
+
+@media screen and (min-width:800px) {
+    .join-container{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .user-info input{
+        width: 50%;
+    }
+    .user-info{
+        margin-left: -40px;
+    }
+    .user-info button{
+        margin-left: 125px;
+        width:67%;
+        cursor: pointer;
+    }
+}

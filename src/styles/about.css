@@ -1,0 +1,116 @@
+.about{
+    margin-top: -200px;
+}
+
+.about button{
+    letter-spacing: 2px;
+}
+
+.slide{
+    opacity: 0;
+    transition: 0.3s ease-in;
+}
+
+.slide.active {
+    opacity: 1;
+    transition: 0.3s ease-in;
+    display: block;
+}
+
+.slider ul{
+    margin-top: 30px;
+}
+
+.slider ul li{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    bottom: 10px;
+    left: 80px;
+}
+
+.social{
+    margin: auto 10px;
+    color: rgb(53, 92, 199);
+    cursor: pointer;
+}
+.social-insta{
+    color: rgb(202, 58, 58);
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.slider{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid rgb(190, 184, 184);
+    border-radius: 10px;
+    box-shadow: 4px 5px 2px 0px rgb(190, 184, 184);
+}
+
+.slider img {
+    border-radius: 90%;
+    background-color: lightgray;
+}
+
+.islam{
+    width: 100%;
+}
+
+.image{
+    width: 60%;
+}
+
+.right-arrow ,.left-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    border: 1px solid hsl(235, 19%, 35%);
+    border-radius: 30px;
+    background-color: hsl(235, 19%, 35%);
+    opacity: 0.9;
+    padding: 7px;
+    padding-inline: 10px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: -15px; 
+}
+
+.right-arrow{
+    right: -15px;
+}
+
+@media screen and (max-width:500px) {
+    .image-holder img {
+        width: 40%;
+        display: block;
+        margin: 10px 90px;
+    }
+    .slider{
+        text-align: center;
+        margin: 20px auto;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    .about{
+        display: grid;
+        grid-template-columns:50% 50%;
+        margin-top: 50px;
+    }
+    .slider{
+        text-align: center;
+    }
+    .slider ul li {
+        left: 250px;
+    }
+}

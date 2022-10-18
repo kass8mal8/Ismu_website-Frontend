@@ -1,0 +1,13 @@
+https://ahadith-api.herokuapp.com/api/ahadith/all/{{language}}
+
+https://ahadith-api.herokuapp.com/api/ahadith/{{bookid}}/{{chapterid}}/{{language}}
+
+“O you who believe! Spend of that with which We have provided for you, before a Day comes when there will be no bargaining, nor friendship, nor intercession. And it is the disbelievers who are the Zaalimoon (wrongdoers)”
+[al-Baqarah 2:254] 
+
+
+ #shura meaning
+3. (Government, Politics & Diplomacy) the process of decision-making by consultation and deliberation
+4. (Islam) the process of decision-making by consultation and deliberation
+
+                    Following the path of Allah and His beloved messenger Muhammad SAW.

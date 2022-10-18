@@ -1,0 +1,29 @@
+@font-face {
+    font-family: kumbh sans;
+    src: url(../font/KumbhSans-Regular.ttf);
+}
+
+body {
+    font-family: kumbh sans;
+}
+
+.container{
+    width: 95%;
+    margin: auto 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+h2 {
+    color:hsl(237, 44%, 20%);
+}
+
+@media screen and (min-width:800px) {
+    .container{
+        width: 90%;
+        margin-left: 60px;
+    }
+    .container{
+        margin-top: 20px;
+    }
+}

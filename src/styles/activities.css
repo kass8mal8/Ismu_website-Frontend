@@ -1,0 +1,15 @@
+.activities {
+    margin-top: -200px;
+}
+
+.activities video{
+    width: 100%;
+}
+
+
+@media screen and (min-width:800px) {
+    .activities{
+        margin-top: 50px;
+    }
+    
+}

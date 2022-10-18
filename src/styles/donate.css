@@ -1,0 +1,13 @@
+.donation {
+    margin-top: 50px;
+}
+.donation img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:500px) {
+    .donation{
+        margin-top: -230px;
+    }
+}
