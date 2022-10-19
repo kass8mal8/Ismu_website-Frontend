@@ -1,10 +1,11 @@
 import '../styles/activities.css'
-import ImageActivitiesCarousel from './ImageActivitiesCarousel';
+import ActivitiesCarousel from './ActivitiesCarousel';
 
 const Activities = () => {
     return ( 
         <div className="activities">
-            <ImageActivitiesCarousel />
+            <h3>Activities in detail</h3>
+            <ActivitiesCarousel />
         </div>
      );
 }

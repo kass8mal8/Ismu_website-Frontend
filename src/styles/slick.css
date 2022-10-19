@@ -1,5 +1,27 @@
 /* Slider */
 .slick-slider img {
     width: 100%;
-    border-radius: 5px;
+}
+
+.slick-slider{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slick-slider.videos{
+    margin-top: 80px;
+}
+
+.slick-slider nav,.slick-slider.videos{
+    background:rgb(233, 230, 230);
+    padding-bottom: 30px;
+}
+
+.slick-slider h4{
+    margin-left: 10px;
+}
+
+.slick-slider p{
+    margin: -10px 10px;
+    font-size: 14px;
 }

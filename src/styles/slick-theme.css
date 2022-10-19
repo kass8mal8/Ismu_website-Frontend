@@ -132,6 +132,7 @@
 .slick-dots li button{
     font-size: 0;
     line-height: 0;
+    margin: 40 5px;
 
     display: block;
 
@@ -179,5 +180,5 @@
 }
 .slick-dots li.slick-active button:before{
     opacity: .75;
-    color: black;
+    color:hsl(235, 19%, 35%);
 }

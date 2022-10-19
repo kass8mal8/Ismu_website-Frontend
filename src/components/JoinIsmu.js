@@ -5,6 +5,7 @@ import {
   } from 'firebase/firestore'
 import {db} from "./firebase"
 import { useRef } from 'react'
+import { Store } from 'react-notifications-component';
 
 import "../styles/joining.css"
 import account from "../images/create_account.webp"
@@ -37,6 +38,21 @@ const JoinIsmu = () => {
         } catch (error) {
             console.log(error.message);
         }
+        form.current.reset()
+
+        Store.addNotification({
+            title: "success!",
+            message: "Registered successfully... you are now a member of ISMU",
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+              duration: 4000,
+              onScreen: true
+            }
+        })
     }
 
     return ( 

@@ -18,10 +18,6 @@ const Form = () => {
             })
         form.current.reset()
         
-        
-    }
-
-    const handleNotification = () => {
         Store.addNotification({
             title: "success!",
             message: "message sent successfully",
@@ -35,6 +31,7 @@ const Form = () => {
               onScreen: true
             }
           })
+        
     }
     
 
@@ -64,7 +61,7 @@ const Form = () => {
                     cols="7" 
                     rows = "5" 
                     placeholder="Enter message to send..."/>
-                    <button onClick={handleNotification}>send</button>
+                    <button>send</button>
                 
         </form>
      );
