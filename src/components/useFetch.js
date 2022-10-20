@@ -6,7 +6,7 @@ const useFetch = (url) => {
     useEffect (() => {
         axios.get(url).then(res => {
             setData(res)
-            console.log(res)
+            console.log(res.data)
         },error => {
             console.log(error.message);
             console.log('Unable to fetch data')

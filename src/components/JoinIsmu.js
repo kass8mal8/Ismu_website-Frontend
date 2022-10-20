@@ -1,9 +1,9 @@
 import {
     collection,
-    getDocs,
     addDoc
   } from 'firebase/firestore'
 import {db} from "./firebase"
+
 import { useRef } from 'react'
 import { Store } from 'react-notifications-component';
 
@@ -11,19 +11,12 @@ import "../styles/joining.css"
 import account from "../images/create_account.webp"
 
 const JoinIsmu = () => {
-    const colRef = collection(db,'members')
     const name = useRef ()
     const tel = useRef ()
     const course = useRef ()
     const form = useRef()
-
-    getDocs(colRef).then(snapshot=> {
-        let members = []
-        snapshot.docs.forEach(doc => {
-            members.push({...doc.data(),id:doc.id})
-        })
-        console.log(members);
-    })
+    const colRef = collection(db,'members')
+    
 
     const handleSubmitData = async(e) => {
         e.preventDefault()

@@ -4,6 +4,8 @@
 
 .about button{
     letter-spacing: 2px;
+    font-weight: 400;
+    opacity: 0.9;
 }
 
 .slide{

@@ -18,6 +18,7 @@
 
 .user-info button{
     font-weight: 400;
+    opacity: 0.9;
 }
 
 @media screen and (min-width:800px) {

@@ -6,10 +6,45 @@
     width: 100%;
 }
 
+.upcoming{
+    background:rgb(233, 230, 230);
+    padding: 4px;
+}
+
+.upcoming img{
+    width:70%;
+    margin-left: 30px;
+}
+
+.upcoming p {
+    font-size:14px;
+    margin-top:-5px;
+}
+
+.upcoming button{
+    opacity: 0.8;
+    font-weight: 400;
+    text-transform: lowercase;
+}
+
 
 @media screen and (min-width:800px) {
     .activities{
         margin-top: 50px;
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 10px;
+    }
+   
+    .upcoming{
+        padding-left: 10px;
+        position: relative;
+    }
+    .upcoming button {
+        position: absolute;
+        right: 10px;
+        margin-top: -55px;
+        width: 55%;
     }
     
 }
