@@ -39,8 +39,8 @@ const JoinIsmu = () => {
             type: "success",
             insert: "top",
             container: "top-right",
-            animationIn: ["animate__animated", "animate__fadeIn"],
-            animationOut: ["animate__animated", "animate__fadeOut"],
+            animationIn: ["animate__animated", "animate__fadeInUp"],
+            animationOut: ["animate__animated", "animate__fadeOutDown"],
             dismiss: {
               duration: 4000,
               onScreen: true

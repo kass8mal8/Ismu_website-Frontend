@@ -10,8 +10,6 @@ const Header = () => {
         document.querySelector('.header nav').classList.toggle('active')
     }
 
-    
-
     return ( 
         <div className="header">
             

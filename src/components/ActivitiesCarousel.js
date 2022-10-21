@@ -16,19 +16,20 @@ const ImageActivitiesCarousel = () => {
       ]
 
     return ( 
-        
+        <div>
         <Slider {...settings}>
 
           {activities.map(activity => (
             <div key={activity.id} className = "slider-images">
-              <nav>
+              <div>
                 <img src={activity.src} alt="none" />
                 <h4> {activity.head} </h4>
                 <p>{activity.desc}</p>
-              </nav>
+              </div>
             </div>
           ))}
         </Slider>
+        </div>
      );
 }
  

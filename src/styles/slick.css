@@ -3,6 +3,14 @@
     width: 100%;
 }
 
+.slck-slide > div{
+    margin: 0 30px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
 .slick-slider{
     justify-content: space-between;
     align-items: center;

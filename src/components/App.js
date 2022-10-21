@@ -12,6 +12,7 @@ import JoinIsmu from './JoinIsmu';
 import { ReactNotifications } from 'react-notifications-component'
 import 'react-notifications-component/dist/theme.css'
 import 'react-notifications/lib/notifications.css';
+import 'animate.css';
 
 
 

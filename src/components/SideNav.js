@@ -34,7 +34,7 @@ const SideNav = ({handleToggle}) => {
                 <h3><Link to = "/contacts">Contact</Link></h3>
             </li>
 
-            <li>
+            <li className = "join-link">
                 <h3><Link to = "/ismu-joining">Join Ismu</Link></h3>
             </li>
         </nav>
