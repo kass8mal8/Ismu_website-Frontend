@@ -5,14 +5,12 @@ import {
 import { db } from './firebase';
 import {useEffect,useState} from 'react'
 import event_illustration from "../images/event_illustration.png"
-import useMembers from "./useMembers"
 
 
 const UpcomingEvents = () => {
     const colRef = collection(db,'activities')
     
     const [events,setEvents] = useState ([])
-    useMembers()
     useEffect (() => {
         const fetchData = async () =>{
             try {
@@ -32,7 +30,7 @@ const UpcomingEvents = () => {
     },[colRef,events])
     return ( 
         <div className = 'upcoming'>
-            {!events ? 
+            {events === " " ? 
                 <p>
                 Posts about upcoming activities and events will appear here
                </p>
