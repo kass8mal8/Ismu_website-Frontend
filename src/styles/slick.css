@@ -1,6 +1,7 @@
 /* Slider */
 .slick-slider img {
-    width: 100%;
+    width: 90%;
+    margin-left: 10px;
 }
 
 .slck-slide > div{
@@ -32,4 +33,16 @@
 .slick-slider p{
     margin: -10px 10px;
     font-size: 14px;
+}
+
+@media screen and (max-width:500px){
+    .slick-slider{
+        width: 95%;
+        margin-left: 5px;
+    }
+    .slick-slider img {
+        width: 96%;
+        
+    }
+    
 }

@@ -1,0 +1,23 @@
+.attendance{
+    background-color: hsla(235, 19%, 35%, 0.9);
+    padding: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.attendance h3{
+    color:whitesmoke;
+}
+
+.attend-close{
+    color: whitesmoke;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+@media screen and (max-width:500px){
+    .attendance{
+        width: 94%;
+    }
+}

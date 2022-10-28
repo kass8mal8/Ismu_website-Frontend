@@ -61,7 +61,8 @@
 }
 
 .islam{
-    width: 100%;
+    width: 80%;
+    margin: auto 50px;
 }
 
 .image{
@@ -106,8 +107,13 @@
 @media screen and (min-width:800px) {
     .about{
         display: grid;
-        grid-template-columns:50% 50%;
+        grid-template-columns:45% 55%;
         margin-top: 50px;
+        gap: 40px;
+    }
+    .islam{
+        width: 50%;
+        margin: auto 90px;
     }
     .slider{
         text-align: center;

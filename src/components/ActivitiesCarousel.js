@@ -7,6 +7,7 @@ import act5 from "../images/ismu-cooking.jpeg"
 import act6 from "../images/img_act6.jpg"
 import shoora from "../images/shoora.jpg"
 
+
 const ImageActivitiesCarousel = () => {
 
       const activities = [
